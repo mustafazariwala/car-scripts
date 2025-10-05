@@ -741,8 +741,8 @@ async function runForToday(mode = "morning") {
 }
 
 // Run immediately (testing; uses morning style)
-runForToday("morning");
-runForToday("evening");
+// runForToday("morning");
+// runForToday("evening");
 
 // Daily at 08:00 and 17:00 Sydney time
 cron.schedule("0 8 * * *", () => {
