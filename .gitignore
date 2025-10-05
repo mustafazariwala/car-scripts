@@ -1,0 +1,7 @@
+# dependencies
+/node_modules
+regos.json
+
+# environment variables
+.env
+.DS_Store
